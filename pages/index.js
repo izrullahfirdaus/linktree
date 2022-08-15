@@ -25,10 +25,10 @@ export default function Home() {
   return (
     <>
         <div className="flex flex-col m-5">
-            <div className="flex bg-gray-500 flex-items justify-center">
+            <div className="flex flex-items justify-center my-2">
                 <Image src={logo} width={250} height={100} />
             </div>
-            <div className="flex bg-gray-500 flex-items justify-center">
+            <div className="flex flex-items justify-center my-2">
                 <p className="text-2xl">@k2tourntravel.id</p>
             </div>
             {listButton}
