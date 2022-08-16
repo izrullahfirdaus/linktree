@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+  body {
+    @apply bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500
+  }
+}
 html,
 body {
   padding: 0;
