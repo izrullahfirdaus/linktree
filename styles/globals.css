@@ -5,7 +5,7 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500
+    @apply bg-gradient-to-r from-violet-100 via-violet-300 to-violet-400
   }
 }
 html,
