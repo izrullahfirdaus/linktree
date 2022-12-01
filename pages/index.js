@@ -4,12 +4,9 @@ import Link from "next/link";
 
 export default function Home() {
     const linkItems = [
-        {"title": "Brosur Umroh Terbaru", "link": "https://www.whatsapp.com"},
-        {"title": "Program Umroh Reguler", "link": "https://api.whatsapp.com/send?phone=6281931031806&text=Assalamualaikum%20wr%20wb,%20saya%20ingin%20menanyakan%20program%20umroh%20reguler?"},
-        {"title": "Program Umroh Jejak Para Nabi", "link": "https://api.whatsapp.com/send?phone=6281931031806&text=Assalamualaikum%20wr%20wb,%20saya%20ingin%20menanyakan%20program%20umroh%20jejak%20para%20nabi%20?"},
+        {"title": "Admin 1 K2", "link": "https://api.whatsapp.com/send?phone=6281119118800&text=Assalamualaikum%20wr%20wb,%20saya%20ingin%20menanyakan%20program%20umroh%20?"},
+        {"title": "Admin 2 K2", "link": "https://api.whatsapp.com/send?phone=62818110971&text=Assalamualaikum%20wr%20wb,%20saya%20ingin%20menanyakan%20program%20?"},
         {"title": "Persyaratan Umroh", "link": "/persyaratan"},
-        {"title": "Webiste K2 Tour n Travel", "link": "https://www.k2tourntravel.com"},
-
     ]
 
     const hoverStyle = "hover:bg-violet-600 hover:text-violet-50 hover:border-violet-50 hover:-translate-y-1"
