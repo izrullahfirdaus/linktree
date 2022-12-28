@@ -4,8 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
     const linkItems = [
-        {"title": "Admin 1 K2", "link": "https://api.whatsapp.com/send?phone=6281119118800&text=Assalamualaikum%20wr%20wb,%20saya%20ingin%20menanyakan%20program%20umroh%20?"},
-        {"title": "Admin 2 K2", "link": "https://api.whatsapp.com/send?phone=62818110971&text=Assalamualaikum%20wr%20wb,%20saya%20ingin%20menanyakan%20program%20?"},
+        {"title": "Admin K2", "link": "https://api.whatsapp.com/send?phone=6281119118800&text=Assalamualaikum%20wr%20wb,%20saya%20ingin%20menanyakan%20program%20umroh%20?"},
         {"title": "Persyaratan Umroh", "link": "/persyaratan"},
     ]
 
